@@ -6,6 +6,14 @@
    color: #B68C5A !important;
 }
 
+.legal-bg-color {
+    background-color: #B68C5A !important;
+}
 .btn-legal-bg-color {
     background-color: #B68C5A !important;
+}
+
+.legal-icon {
+    width: 25px;
+    padding: 5px;
 }
