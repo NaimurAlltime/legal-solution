@@ -18,6 +18,7 @@
     padding: 5px;
 }
 
+
 .legal-person {
     position: relative;
     width: 70px;
@@ -28,4 +29,18 @@
 
 .legal-background {
     filter: blur(2.5px);
+}
+
+.legal-footer-background {
+    background-color: #111111;
+}
+
+.legal-list-none {
+    list-style: none;
+}
+
+@media screen and (max-width: 600px) {
+    .legal-button-width {
+        width: 65vw !important;
+    }
 }
