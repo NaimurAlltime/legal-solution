@@ -43,11 +43,31 @@
             <a class="nav-link" href="#">Contact Us <i class="fa-solid fa-angle-right"></i></a>
           </li>
         </ul>
-          <button class="ms-5 p-2 text-white btn btn-legal-bg-color btn-outline-legal-font-color" type="submit">Free Consultation</button>
+          <button class="ms-5 p-2 text-white btn btn-legal-bg-color btn-outline-legal-font-color" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Free Consultation</button>
       </div>
     </div>
   </nav>
   <!-- End of navbar -->
+
+<!-- Modal Start -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Your Opinion</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Text-only
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal End -->
 
   <!-- Start of banner section -->
     <div class="img-fluid rounded mt-5" style="background-image: url('images/banner.png'), linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%); height: 80vh; object-fit: cover; background-repeat: no-repeat;">
@@ -294,10 +314,10 @@
    </section>
   <!-- Frequently Asked Questions end  -->
  </main>
- 
+
     <!-- start of footer -->
     <footer class="mt-5 legal-footer-background py-5">
-     <section class="container-lg text-white pt-4">
+     <section class="container-lg text-white pt-4 px-3">
       <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-5">
         <div class="col">
           <img class="img-fluid" src="images/logo.png" alt="">
